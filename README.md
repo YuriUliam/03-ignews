@@ -1,34 +1,71 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Do que se trata?
 
-## Getting Started
+Esse repositório é o começo em estudos do Capítulo III do curso de ReactJS da Rocketseat.<br>
 
-First, run the development server:
+Nele eu me aprofundo sobre Next.js e seus conceitos na abordagem do ReactJS com Typescript.<br>
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+Ainda farei um tutorial de como configurar-lo para iniciar a aplicação.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Módulos Estudados
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- __**Estrutura da aplicação**__
+  - Introdução ao módulo
+  - Fluxo da aplicação
+  - Fundamentos do Next.js
+  - Criando estrutura Next.js
+  - Adicionando TypeScript
+  - Estilização com SASS
+  - Configurando fonte externa
+  - Title dinâmico por página
+  - Estilos globais do app
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- __**Componentes e páginas**__
+  - Componente: Header
+  - Componente: SignInButton
+  - Página Home
+  - Componente: SubscribeButton
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- __**Integração com API**__
+  - Configurando Stripe
+  - Consumindo API do Stripe (SSR)
+  - Static Site Generation (SSG)
+  
+- __**API Routes no Next.JS**__
+  - API routes no Next.JS
+  - Estratégias de autenticação
+  - Parametrização nas rotas
+  - Autenticação com Next Auth
+  
+- __**Usando FaunaDB**__
+  - Escolhendo um banco de dados
+  - configurando FaunaDB
+  - Configurações no Github
+  - Salvando usuário no banco
+  - Chave privada do JWT
+  - Verificando usuário duplicado
+  
+- __**Pagamentos no Stripe**__
+  - Gerando sessão de checkout
+  - Redirecionando para o Stripe
+  - Evitando duplicação no Stripe
+  
+- __**Ouvindo webhooks**__
+  - Webhooks do Stripe
+  - Ouvindo eventos do Stripe
+  - Salanvo dados do evento
+  - Ouvindo mais eventos
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- __**Trabalhando com CMS**__
+  - Escolhendo um CMS
+  - Configurando Prismic CMS
+  - Página: Posts
+  - Consumindo API do Prismic
+  - Listando posts em tela
+  - Navegação no menu
+  - Component: ActiveLink
+- __**Páginas estáticas**__
+  - Página: Post
+  - Validando assinatura ativa
+  - Página: Preview do post
+  - Gerando previews estáticos
+  - Finalização do módulo

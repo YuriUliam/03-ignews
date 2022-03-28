@@ -1,0 +1,21 @@
+{
+  "id": "e9a62659-c128-412b-9385-7113f6298217",
+  "uid": "aut-qui-eum",
+  "type": "post",
+  "data": {
+    "title": [
+      {
+        "type": "heading1",
+        "text": "Generate dot-com interfaces",
+        "spans": []
+      }
+    ],
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Irure consectetur cupidatat do anim fugiat tempor est eiusmod aute elit magna.",
+        "spans": []
+      }
+    ]
+  }
+}
